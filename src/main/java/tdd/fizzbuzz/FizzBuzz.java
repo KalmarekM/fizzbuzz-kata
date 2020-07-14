@@ -3,6 +3,13 @@ package tdd.fizzbuzz;
 public class FizzBuzz {
 
     public String fizzBuzz(Integer num) {
-        return num.toString();
+        switch (num) {
+            case 3:
+                return "Fizz";
+            case 5:
+                return "Buzz";
+            default:
+                return num.toString();
+        }
     }
 }
