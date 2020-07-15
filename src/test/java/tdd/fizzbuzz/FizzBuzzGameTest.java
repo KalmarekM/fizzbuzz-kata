@@ -20,7 +20,7 @@ public class FizzBuzzGameTest {
     }
 
     @Test
-    void returnResultString3() {
+    void returnResultStringTo3() {
         FizzBuzzGame fizzBuzzGame = new FizzBuzzGame();
         String res = fizzBuzzGame.play(3);
         assertThat(res).isEqualTo("1,2,Fizz");
